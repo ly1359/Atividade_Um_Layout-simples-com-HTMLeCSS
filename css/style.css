@@ -8,12 +8,10 @@
 }
 
 .logo {
-    background-color: aliceblue;
-    border: 1.5px solid #6a6287;
     display: flex;
     align-items: center;
-    width: 65px;
-    height: 35px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 5px;
     margin: 0 5%;
 }
@@ -23,12 +21,17 @@
     align-items: center;
 }
 
-.topo nav li a{
+.topo nav a{
     color: #ffff;
+    border-right: 2px solid #ffff;
     padding: 3px;
 }
 
-.topo nav li a:hover{
+.topo nav a:last-child{
+    border: none;
+}
+
+.topo nav a:hover{
     text-decoration: underline;
 }
 
